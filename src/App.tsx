@@ -19,7 +19,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
-        <Route path="/food/detail" element={<Detail/>}></Route>
+        <Route path="/food/detail/:no" element={<Detail/>}></Route>
         <Route path="/food/find" element={<FoodFind/>}></Route>
       </Routes>
     </Router>
